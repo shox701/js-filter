@@ -9,7 +9,7 @@ arr1.filter((num) => {
         arr20va50.push(num);
     }
 });
-// Juft yoki index va 50-dan katta
+// Juft yoki toq index va 50-dan katta
 arr1.filter((num, index) => {
     if (index % 2 == 0 && num >= 50) {
         juft.push(num);
